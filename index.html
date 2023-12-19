@@ -1,0 +1,83 @@
+<!--index.html-->
+
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+	<meta charset="UTF-8" /> 
+	<meta name="viewport"
+		content="width=device-width, 
+				initial-scale=1.0" /> 
+	<link rel="stylesheet"
+		href="./style.css" /> 
+	<title>Elige tu regalo de Navidad</title> 
+</head> 
+
+<body> 
+	<div class="containerNew"> 
+		<header> 
+			<div> 
+				<span style='font-size:100px;'>&#128143;</span>
+			</div> 
+
+			<div class="timer"> 
+				<p> 
+					Tiempo: 
+					<span id="timer"> 
+						0 
+					</span> 
+				</p> 
+			</div> 
+		</header> 
+
+		<main class="quiz"> 
+			<div id="quiz-start"> 
+				<div class="landing"
+					id="start-screen"> 
+					<h1 id="top"> 
+						Tu regalo de Navidad &#127775; 
+					</h1> 
+					<h1> 
+					&#127877; &#127876; &#127873; &#127882;
+					</h1> 
+					<p> 
+						Hay tantas cosas que quisiera regalarte pero no pude decidirme en una, entonces te lo dejo a ti. Da click en Inicio y ayudama decidir tu regalo!!
+					</p> 
+					<button id="start"> 
+					Inicio 
+					</button> 
+				</div> 
+			</div> 
+
+			<div class="hide" id="questions"> 
+				<h2 id="question-words"></h2> 
+				<div class="options" id="options"> 
+				</div> 
+			</div> 
+
+			<div class="hide" id="quiz-end"> 
+				<h2>Listo!</h2> 
+				<p>Disfruta tu regalo! 
+					<span id="score-final"> 
+					</span> 
+				</p> 
+				<p> 
+					 
+					<input type="text"
+						id="name"
+						max="3" /> 
+					<button id="submit-score"> 
+						
+					</button> 
+				</p> 
+			</div> 
+
+			<div id="feedback"
+				class="feedback hide"> 
+			</div>
+		</main> 
+	</div> 
+	<script src="./script.js"></script> 
+</body> 
+
+</html>
