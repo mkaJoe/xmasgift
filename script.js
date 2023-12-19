@@ -35,7 +35,7 @@ let questions = [
 
 	{ 
 		prompt: `Chale, y si mejor te doy unos 10 varos y el masaje?`, 
-		options: ["Con final feliz", "sumale un six", "De artepil",], 
+		options: ["Con final feliz", "sumale un six", "De artepil", "No gracias, solo los 10 varos",], 
 		answer: ".....", 
 	}, 
 
